@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN"
+"http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+ <title>File Upload Example</title>
+ </head>
+
+
+ <body>
+ <h1>Welcome to our photo album.</h1>
+
+
+ <form action="file_upload.jsp" method="post"
+enctype="multipart/form-data">
+ <p><br/>
+ Choose a photo to upload to the WAP server:
+ <input name="myFile" type="file"/><br/>
+ On the WAP server, save the file as: (Enter something here if you
+want the file to be saved in a different file name.)
+ <input name="filename" type="text"/>
+ </p>
+
+
+ <hr/>
+
+
+ <p>
+ <input type="submit"/>
+ <input type="reset"/>
+ </p>
+ </form>
+ </body>
+</html>
